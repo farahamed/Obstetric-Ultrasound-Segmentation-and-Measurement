@@ -1,9 +1,14 @@
-"""End-to-end runner for Member 1: cleaning, solid mask generation, splitting, and figures."""
+"""End-to-end runner for cleaning, solid mask generation, splitting, and figures."""
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 from typing import Dict
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 import cv2
 import matplotlib
@@ -78,7 +83,7 @@ def plot_mask_verification(
         )
 
     fig.suptitle(
-        "Member 1 Verification: Hollow Contour to Solid Binary Mask Conversion",
+        "Verification: Hollow Contour to Solid Binary Mask Conversion",
         fontsize=13,
         fontweight="bold",
         y=0.995,
@@ -153,7 +158,7 @@ def plot_split_distributions(
 
 
 def run_all() -> None:
-    """Execute the full Member 1 data cleaning, mask generation, and splitting pipeline."""
+    """Execute the full data cleaning, mask generation, and splitting pipeline."""
     print("[1/4] Auditing & deduplicating HC18 training metadata...")
     cleaned_df, dup_audit_df = clean_hc18_metadata()
     n_dropped = int((dup_audit_df["action"] == "drop").sum()) if not dup_audit_df.empty else 0
@@ -182,7 +187,7 @@ def run_all() -> None:
     fig2 = plot_split_distributions(splits)
     print(f"      Saved: {fig1}")
     print(f"      Saved: {fig2}")
-    print("Member 1 pipeline complete. Zero leakage verified.")
+    print("Pipeline complete. Zero leakage verified.")
 
 
 if __name__ == "__main__":
