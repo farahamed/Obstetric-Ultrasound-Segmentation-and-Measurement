@@ -1,7 +1,7 @@
 # Obstetric Ultrasound Segmentation and Fetal Head Circumference (HC) Measurement
 
 **Course:** SBES426 — Medical Pattern Recognition (Cairo University, Faculty of Engineering, Fall 2026)  
-**Team:** Team 2 — Farah Ahmed, Malak Mohamed, Reem Khaled, Omar Nasser, and our 5th team member  
+**Team:** Team 2 — Farah Ahmed, Malak Mohamed, Reem Khaled, Omar Nasser, and Yousra hatem   
 **Supervisor:** Eng. Mary Milad  
 
 ---
