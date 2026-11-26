@@ -1,0 +1,3 @@
+image_arm,n_images,total_pixels,TN,FP,FN,TP,sensitivity_pct,specificity_pct,precision_pct,f1_dice_pct,accuracy_pct,auc_roc
+raw_norm,153,66083122,46085316,539399,531157,18927250,97.27,98.84,97.23,97.25,98.38,0.99893
+despeckled,153,66083122,46000799,623916,468657,18989750,97.59,98.66,96.82,97.2,98.35,0.99887

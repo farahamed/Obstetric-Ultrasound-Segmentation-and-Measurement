@@ -1,0 +1,5 @@
+method,pipeline,eval_set,dsc_pct,hd_mm,ad_mm,md_mm,sensitivity_pct,specificity_pct,auc_roc
+van den Heuvel et al. (2018),Haar features + Random Forest + Hough + Ellipse fit,Official HC18 Test (n=335),97.0,,2.8,,,,
+Sobhaninia et al. (2019),Multi-task Link-Net CNN + Ellipse Tuner,Official HC18 Test (n=335),96.84,,2.12,,,,
+Baseline U-Net (Raw Normalized),4-stage U-Net (492k params) + cv2.fitEllipse,Internal Test (n=153),97.12,1.65,2.45,1.0,97.27,98.84,0.99893
+Baseline U-Net (Despeckled),Perona-Malik + 4-stage U-Net + cv2.fitEllipse,Internal Test (n=153),96.61,1.79,3.27,1.74,97.59,98.66,0.99887
