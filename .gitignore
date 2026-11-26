@@ -1,0 +1,42 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Large dataset & generated data artifacts (keep directory placeholders and split manifests)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model weights, checkpoints & logs
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+checkpoints/
+runs/
+logs/
+wandb/
+mlruns/
+
+# Archives
+*.zip
+*.tar.gz
+*.7z

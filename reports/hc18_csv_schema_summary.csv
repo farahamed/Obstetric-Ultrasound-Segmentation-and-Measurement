@@ -1,0 +1,4 @@
+column,dtype,missing_values,unique_values
+filename,object,0,999
+pixel size,float64,0,993
+head circumference (mm),float64,0,904
