@@ -1,0 +1,3 @@
+model,n_images,dsc_clean_mean_pct,dsc_clean_std_pct,dsc_ellipse_mean_pct,dsc_ellipse_std_pct,hd_ellipse_mean_mm,hd_ellipse_std_mm,hd95_ellipse_mean_mm,ad_mean_mm,ad_std_mm,ad_median_mm,md_mean_mm,md_std_mm
+BaselineUNet (raw_norm),153,96.82,2.21,97.12,2.34,1.65,1.01,1.53,2.45,2.55,1.88,1.0,3.4
+BaselineUNet (despeckled),153,96.3,8.07,96.61,8.12,1.79,2.03,1.67,3.27,4.36,2.25,1.74,5.17

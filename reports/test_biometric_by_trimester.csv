@@ -1,0 +1,7 @@
+model,trimester,n_images,dsc_ellipse_pct,hd_ellipse_mm,ad_mm,md_mm
+BaselineUNet (raw_norm),1st Trimester (<100 mm),30,94.15,1.66,2.86,0.75
+BaselineUNet (raw_norm),2nd Trimester (100-250 mm),96,97.94,1.34,1.89,0.87
+BaselineUNet (raw_norm),3rd Trimester (>250 mm),27,97.49,2.74,4.0,1.75
+BaselineUNet (despeckled),1st Trimester (<100 mm),30,91.89,2.11,4.05,-0.48
+BaselineUNet (despeckled),2nd Trimester (100-250 mm),96,97.86,1.4,2.43,1.77
+BaselineUNet (despeckled),3rd Trimester (>250 mm),27,97.39,2.84,5.39,4.13
