@@ -1,0 +1,4 @@
+split,n_images,image_share_pct,n_exams,hc_mean_mm,hc_median_mm,hc_std_mm,pixel_size_mean_mm,fg_pixel_pct,recommended_bce_pos_weight,bin_<100,bin_100-150,bin_150-200,bin_200-250,bin_250-300,bin_>300
+train,693,69.72,545,173.93,174.1,64.89,0.13911,30.59,2.269,130,44,369,48,72,30
+val,148,14.89,117,173.4,173.09,61.46,0.13813,30.52,2.277,24,9,87,9,13,6
+test,153,15.39,117,176.59,173.96,70.9,0.14379,29.44,2.396,30,8,78,10,15,12
